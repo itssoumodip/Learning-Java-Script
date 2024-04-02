@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primarycolor: gray;
+            --textcolor: white;
+            --secandorycolor: rgb(176 190 190);
+        }
+        body{
+            background-color: var(--secandorycolor);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            /* font-size: 23px; */
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        nav{
+            padding: 23px;
+            /* margin: 23px 0px; */
+            background-color: var(--primarycolor);
+            
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: var(--textcolor);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,215 @@
+* {
+    /* font-family: 'Quicksand', sans-serif; */
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li {
+    /* text-decoration-style: dotted; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* padding: 23px; */
+}
+
+header nav div ul {
+    display: flex;
+    gap: 26px;
+    /* padding: 30px 205px; */
+    letter-spacing: 1px;
+}
+
+.logo {
+    /* border: 2px solid black; */
+}
+
+nav {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    align-items: center;
+    align-content: end;
+    gap: 303px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 195px;
+    height: 68px;
+
+}
+
+header nav div ul li img {
+    width: 39px;
+    height: 39px;
+}
+
+.ar {
+    display: flex;
+    transform: rotate(271deg);
+    width: 14px;
+    height: 11px;
+    align-items: center;
+}
+
+.first {
+    font-size: 51px;
+    /* margin: 69px; */
+    padding: 65px 0px 8px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.second {
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    /* text-decoration-thickness: 9px; */
+    width: 943px;
+    /* border: 2px solid black; */
+    text-align: center;
+    /* text-decoration-thickness: 21px;*/
+}
+
+.part-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #e3e3e3; */
+    gap: 31px;
+}
+
+.download {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    padding: 16px 29px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.flex-logo img {
+    /* border: 2px solid black; */
+    height: 63px;
+    width: 68px;
+}
+
+.flex {
+    /* border: 2px solid red; */
+    margin: 81px 279px;
+    display: flex;
+}
+
+.flex-part-1 {
+    /* background-color: #94f294; */
+    margin: 6px 0px 0px 19px;
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.flex-part-2 {
+    /* background-color: yellow; */
+    margin: 25px 0px 0px 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.btn-blue {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+}
+
+.btn-green {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.button-group {
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 156px 156px 156px 156px;
+    justify-content: center;
+    gap: 23px;
+    height: 859px;
+}
+
+.item {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    /* border: 2px solid red; */
+    gap: 0px;
+    /* margin: -3px 0px -19px 0px; */
+    padding: 0px 0px 7px 0px;
+    margin: 0px 0px -11px 0px;
+}
+
+.item-ex {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    /* border: 2px solid red; */
+    gap: 45px;
+    /* margin: -3px 0px -19px 0px; */
+    padding: 0px 0px 7px 0px;
+    margin: 0px 0px -11px 0px;
+}
+
+.item-lang {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 19px 0px 0px 0px;
+    margin: -3px 0px -19px 0px;
+}
+
+.item-caption {
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 11px;
+    /* border: 2px solid black; */
+    padding: 0px 0px 14px 0px;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1160px) {
+    .grid {
+        /* border: 2px solid red; */
+        background-color: #5cb85c;
+        grid-template-columns: 300px;
+    }
+    
+}

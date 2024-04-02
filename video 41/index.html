@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header nav ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            /* padding: 23px; */
+        }
+
+        header nav div ul {
+            display: flex;
+            gap: 16px;
+            /* padding: 30px 205px; */
+        }
+
+        .logo {
+            /* border: 2px solid black; */
+        }
+
+        nav {
+            padding: 12px;
+            display: flex;
+            justify-content: space-around;
+            /* border: 2px solid red; */
+            align-items: center;
+            align-content: end;
+        }
+
+        .logo img {
+            width: 195px;
+            height: 68px;
+        }
+
+        header nav div ul li img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .ar {
+            display: flex;
+            transform: rotate(271deg);
+            width: 14px;
+            height: 11px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img.png" alt="UE">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><img class="ar" src="dn.png" height="2px" width="2px"></li>
+                    <li><span>Pricing</span> <img class="ar" src="dn.png"></li>
+                    <li><span>Resources</span> <img class="ar" src="dn.png"></li>
+                    <li><span>About Us</span> <img class="ar" src="dn.png"></li>
+                    <li><img src="last.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>

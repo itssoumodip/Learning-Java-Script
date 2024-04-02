@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        /* img{
+            filter: blur(10px);
+        } */
+        img {
+            width: 496px;
+            height: 291px;
+        }
+
+        .img-1 {
+            filter: grayscale(100%);
+        }
+        
+        .img-2 {
+            filter: brightness(132%) contrast(1.0);
+        }
+        
+        .img-3 {
+            /* filter: sepia(100%); */
+            /* filter: invert(1); */
+            filter: opacity(39%);
+            /* filter: drop-shadow(3px 3px red) sepia(100%) drop-shadow(-3px -3px blue); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="img-1"
+            src="https://th.bing.com/th/id/R.e4da1cc7fdd003c65590c7ca03ed976f?rik=r5RCEkz%2fhzALAw&riu=http%3a%2f%2fwww.alpenglowimagesphotography.com%2fblog%2fwp-content%2fuploads%2f2019%2f12%2fjoshua-tree-snow1a-1024x683.jpg&ehk=IDNHUy686Z7VURFydBOFXM%2fhyOzNXAw1YmhPCVWL6E0%3d&risl=&pid=ImgRaw&r=0"
+            alt="">
+        <img class="img-2" src="https://i1.wp.com/godofindia.com/wp-content/uploads/2017/05/shahrukh-khan-59.jpg"
+            alt="">
+        <img class="img-3"
+            src="https://www.suntiros.com/wp-content/uploads/2016/12/Akshay-Kumar-Height-Weight-Age-Biography-More.jpg"
+            alt="">
+    </div>
+</body>
+
+</html>

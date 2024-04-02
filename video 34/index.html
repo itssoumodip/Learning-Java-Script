@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Ckear</title>
+    <style>
+        .cards{
+            border: 2px solid rgb(0, 0, 0);
+            display: flow-root;
+            /* overflow: auto; */
+            
+        }
+        .card{
+            border: 2px solid rgb(0, 217, 255); 
+        }
+        img{
+            /* float: left; */
+            float: right;
+        }
+        .card:nth-child(3){
+            background-color: brown;
+            clear: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://th.bing.com/th/id/OIP.IhiqRWFamp-enjV2csKdzwHaE8?rs=1&pid=ImgDetMain" alt="" width="230px">
+        <div class="card">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam deserunt saepe molestiae,
+                asperiores rem ipsa, amet fugit aspernatur provident explicabo cumque natus dolore adipisci delectus
+                mollitia blanditiis, perspiciatis consequuntur ducimus quo labore omnis?
+            </p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus ducimus unde corrupti dolor adipisci a ullam rem eos ipsa commodi quaerat laboriosam vero facere saepe provident temporibus, quibusdam praesentium esse alias. Debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores quidem vel tenetur sunt et soluta officiis cumque ratione quae eaque sequi eum blanditiis nam quam deserunt impedit sapiente, vero minima recusandae nesciunt rem provident. Nesciunt labore quas cupiditate officiis dignissimos, deleniti pariatur non sequi ipsam dolor asperiores veniam sunt maxime voluptatum? Nobis sint numquam magnam in. Ad inventore corporis consequatur vel perspiciatis laudantium veritatis dicta nostrum mollitia laboriosam? Necessitatibus quidem, aperiam praesentium temporibus saepe enim provident? Sit aperiam quod assumenda soluta totam mollitia corporis fugiat minus, suscipit dolores a enim aspernatur sed autem amet! Voluptates tempora tenetur quo sit.
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>
