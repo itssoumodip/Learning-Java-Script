@@ -39,9 +39,9 @@ let o = {
     "job code": 3000, 
     "is-handsome": true
 }
-console.log(o);
+console.log(o)
 // FOR ADDING IN OBJECT  
 o.salary = "1000Crore";
-console.log(o);
+console.log(o)
 o.salary = "5000Crore";
-console.log(o);
+console.log(o)

@@ -18,18 +18,18 @@ function sum(a, b) {
 sum(3, 7);
 
 // Function With Return 
-function substract(c, d, e=4) {  //e=defalult value
+function substract(c, d, e = 4) {  //e=defalult value
     return c - d + e;
 }
 result1 = substract(8, 1);
 result2 = substract(1, 0);
 result3 = substract(2, 1);
-console.log("The Sum of these Number is : ", result1)
-console.log("The Sum of these Number is : ", result2)
-console.log("The Sum of these Number is : ", result3)
+console.log("The Subtract of these Number is : ", result1)
+console.log("The Subtract of these Number is : ", result2)
+console.log("The Subtract of these Number is : ", result3)
 
 // ARROW FUNCTION 
-const func1 = (x)=>{
+const func1 = (x) => {
     console.log("I am an Arrow Function", x)
 }
 func1(45);

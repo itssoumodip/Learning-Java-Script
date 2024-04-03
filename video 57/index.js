@@ -13,15 +13,18 @@ console.log("HELLOW THIS IS LOOKING LIKE A WOW !!")
 //     role: "Programmer", 
 //     company: "Soumodip AI"
 // }
-// // FOR OF 
 // for (const key in obj) {
-//         const element = obj[key];
+//         const element = obj[key];   //FOR THIS KEY & ELEMENTS ARE PRINT
 //         console.log(key, element)
 // }
+// for (const key in obj) {
+//         console.log(key) //ONLY KEY PRINT
+// }
 // // FOR OF
-// for (const c of "Soumodip") {
+// for (const c of "Soumodip Das") {
 //     console.log(c)
 // }
+//
 // // WHILE
 // let i=0;
 // while(i<=6){
@@ -30,8 +33,8 @@ console.log("HELLOW THIS IS LOOKING LIKE A WOW !!")
 // }
 //
 // //DO WHILE LOOP
-let i=0;
-do {
-    console.log(i)
-    i++;
-} while (i<6);
+// let i=0;
+// do {
+//     console.log(i)
+//     i++;
+// } while (i<6);
