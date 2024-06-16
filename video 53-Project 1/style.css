@@ -3,51 +3,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-* {
+*{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
-body {
+body{
     background-color: black;
-
+    /* object-fit: contain; */
+    /* object-position: top right; */
 }
-.main {
+.main{
     position: relative;
-    background-image: url('assets/images/bg.jpg');
-    background-position: center bottom;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/51c1d7f7-3179-4a55-93d9-704722898999/be90e543-c951-40d0-9ef5-e067f3e33d16/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-position: center -284px;
     /* background-size: contain; */
     background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
-    height: 95vh;
+    background-size: max(1910px, 12vw);
+    height: 91vh;
     /* width: 100vw; */
 }
-.main .box {
+.main .box{
+    z-index: 10;
     position: absolute;
     top: 0;
     height: 97vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.70;
     background-color: black;
 }
-nav {
+nav{
+    z-index: 20;
     /*background-color: gray; */
     display: flex;
     justify-content: space-between;
+    max-width: 80vw;
+    margin: auto 187px;
     align-items: center;
     height: 87px;
-    padding: 0 20px;
 }
-.logo {
-    
-    
-    /* height: 40px; */
+.logo{
+    /* width: 23vw; */
+    height: 40px;
     position: relative;
-    z-index: 10;
-    width: 150px;
-
+    z-index: 20;
+    width: 157px;
 }
-.nav-btn-group {
+.nav-btn-group{
     /* background-color: aqua; */
     display: flex;
     gap: 20px;
@@ -55,180 +56,300 @@ nav {
     width: 118px  */
     /* height: 23px; */
 }
-.nav-1 {
+.nav-1{
+    display: flex;
+    gap: 4px;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
     background-color: rgba(0, 0, 0, 0.417);
     border: none;
-    border: 1px solid gray;
+    border: 1px solid #636464;
     border-radius: 4px;
-    /* background-color-blend-mode: opacity(1200px); */
     position: relative;
-    z-index: 10;
-    height: 30px;
-    width: 118px;
+    z-index: 20;
+    height: 31px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
 }
 /* .len-icon{
     display: flex;
     filter: invert(100%);
-} */
-.nav-2 {
-    cursor: pointer;
-    font-family: 'Martel Sans', sans-serif;
-    font-weight: 500;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    background-color: red;
-    /* border border-radius: 10px; */
-    position: relative;
-    z-index: 10;
-    height: 30px;
-    width: 69px;
-}
-/* .nav-btn{
-    padding: 13px 8px;
-} */
-.input-get-group {
-    display: flex;
-    gap: 10px;
-}
-@media (max-width: 450px) {
-    .input-get-group {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    } */
+    .nav-2{
+        cursor: pointer;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: red;
+        position: relative;
+        z-index: 20;
+        height: 33px;
+        width: 74px;
     }
-}
-.btn-input {
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.417);
-    border: none;
-    border: 1px solid gray;
-    border-radius: 4px;
-    /* background-color-blend-mode: opacity(1200px); */
-    position: relative;
-    z-index: 10;
-    height: 52px;
-    width: 351px;
-    padding: 0px 0px 0px 20px;
-}
-.btn-get {
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 23px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    background-color: red;
-    position: relative;
-    z-index: 10;
-    height: 54px;
-    width: 198px;
-    text-align: center;
-    justify-content: center;
+    /* .nav-btn{
+        padding: 13px 8px;
+        } */
+        .input-get-group{
+            /* z-index: 20; */
+            display: flex;
+            gap: 10px;
+        }
+        .btn-input{
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.417);
+            border: none;
+            border: 1px solid gray;
+            border-radius: 4px;
+            /* background-color-blend-mode: opacity(1200px); */
+            position: relative;
+            z-index: 20;
+            height: 52px;
+            width: 351px;
+            padding: 0px 0px 0px 20px;
+        }
+        .btn-get{
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 23px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            position: relative;
+            z-index: 20;
+            height: 54px;
+            width: 198px;
+            text-align: center;
+            justify-content: center;
     align-items: center;
     /* padding: 0px 0px 10px 0px;
     margin: 0px 0px 10px 0px; */
 }
-.hero {
+.hero{
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    max-width: 100vw;
+    /* background-color: gray; */
+    z-index: 20;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
     gap: 23px;
-    padding: 0 30px;
+    padding: 0px 30px;
 }
-.hero > :nth-child(1) {
+.hero> :nth-child(1){
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     /* height: 23vh; */
-    width: auto;
-    font-size: 3em;
+    font-size: 46px; 
     font-weight: bolder;
     text-align: center;
     /* margin: 0px 0px 50px 0px */
     margin: 0px 0px 0px 0px;
 }
-@media (max-width: 450px) {
-    .hero > :nth-child(1) {
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 0px;
-        /* height: 23vh; */
-        width: auto;
-        font-size: 30px;
-        font-weight: bolder;
-        text-align: center;
-        /* margin: 0px 0px 50px 0px */
-        margin: 0px 0px 0px 0px;
-    }
-}
-
-.hero > :nth-child(2) {
-    font-size: 21px;
+.hero> :nth-child(2){
+    font-size: 21px; 
     font-weight: 400;
     text-align: center;
 }
-.hero > :nth-child(3) {
-    font-size: 20px;
+.hero> :nth-child(3){
+    font-size: 20px; 
     font-weight: 400;
     text-align: center;
     margin: -2px 0px 0px 0px;
     letter-spacing: -1px;
 }
-.separation {
-    background-color: gray;
+.separation{
+    /* z-index: 100; */
+    background-color: #252525;
     position: relative;
     height: 7px;
     z-index: 20;
 }
-.first {
+.first{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70vw;
+    max-width: 75vw;
     margin: auto;
     color: white;
+    padding: 75px;
 }
-.secimg {
+.secimg{
     position: relative;
+    margin: 43px 0px 0px 0px;
 }
-.secimg img {
+.secimg img{
     /* display: flex; */
     /* height: 52vh; */
-    width: 34vw;
+    width: 555px;
     position: relative;
     z-index: 20;
 }
 .secimg video {
     position: absolute;
     right: 0px;
-    height: 219px;
-    width: 525px;
-    top: 78px;
+    height: 231px;
+    width: 549px;
+    top: 83px;
 }
-.first > :first-child {
+section.first > div{
+    gap: 17px;
     display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+section.first > div :nth-child(2){
+    font-size: 25px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    /* font-weight: bolder; */
+}
+section.second > div.second-caption :nth-child(1){
+    font-size: 52px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+    font-weight: 900;
+}
+section.third > div :nth-child(2){
+    font-size: 26px;
+}
+section.forth > div :nth-child(1){
+    font-size: 52px;
+}
+section.forth > div :nth-child(2){
+    font-size: 26px;
+}
+.secimg-second{
+    position: relative;
+    margin: 43px 0px 0px 0px;
+}
+.secimg-second img{
+    /* display: flex; */
+    /* height: 52vh; */
+    width: 39vw;
+    position: relative;
+    z-index: 20;
+}
+.secimg-second video {
+    position: absolute;
+    right: 0px;
+    height: 214px;
+    width: 613px;
+    top: 52px; 
+}
+.faq h2{
+    text-align: center;
+    font-size: 49px;
+    font-weight: 900;
+}
+.faq{
+    padding: 68px;
+    background-color: black;
+    color: white;
+    display: flow;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.faqbox:hover {
+    background-color: #414141;
+}
+.faqbox{
+    transition: all 0.4s ease-out;
+    font-size: 23px;
+    display: flex;
+    background-color: #2d2d2d;
+    height: 26px;
+    max-width: 73vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto -16px auto;
+    padding: 30px;
+}
+.fotter-login{
+    font-size: 20px;
+    font-weight: 400;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    /* align-items: center; */
+    color: white;
+    /* background-color: gray; */
+    z-index: 20;
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+    margin: 0px auto 70px auto;;
+}
+.fotter-login> :nth-child(3){
+    text-align: center;
+    margin: -2px 0px 0px 0px;
+    letter-spacing: -1px;
+}
+footer{
+    padding: 34px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 74vw;
+    margin: auto;
+}
+.footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 74vw;
+    margin: auto;
+}
+.footer-item{
+    gap: 16px;
+    display: flex;
     flex-direction: column;
 }
-.first-caption > :first-child {
-    font-family: 'Martel Sans', sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
-    padding: 89px 0px 0px 0px;
+.footer-call{
+    gap: 8px;
+    display: flex;
+    margin: 21px 0px 29px 0px;
+}
+.footer-1{
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.417);
+    border: none;
+    border: 1px solid #636464;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+    height: 31px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
 }
